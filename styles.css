@@ -1,0 +1,79 @@
+* {
+    background-color: beige;
+}
+body {
+    display: grid;
+    grid-template-rows: 1fr 7fr 1fr;
+}
+header {
+    display: flex;
+    flex-direction: row;
+}
+#logo {
+    width: 10%;
+    height: auto;
+}
+header>h1 {
+    text-align: left;
+    line-height: 50px;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 100px;
+    width: 66%;
+}
+nav>a {
+    color: navy;
+    text-decoration: none;
+}
+nav>a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+content {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 100px;
+}
+aside {
+    display: flex;
+    flex-direction: row;
+}
+form {
+    display: flex;
+    flex-direction: wrap;
+    width: 100%;
+}
+.list {
+    list-style: none;
+    height: 15%;
+    text-align: center;
+}
+ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.first col>li, .second col>li {
+    font-family: 'Times New Roman', Times, serif;
+}
+#steel {
+    position: relative;
+    left: 25%;
+}
+#harrisburg {
+    float: right;
+}
+ul {
+    position: absolute;
+    top: 250px;
+}
